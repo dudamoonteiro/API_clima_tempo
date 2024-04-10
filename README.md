@@ -17,7 +17,9 @@ Esse código pode ser utilizado para consultar o clima de uma cidade a partir de
 
 ### ELEMENTOS DO CÓDIGO QUE ESTÃO SENDO UTILIZADOS:
 formClima: formulário que contém o campo de entrada para o nome da cidade.
+
 cityInput: campo de entrada para o nome da cidade.
+
 climaResult: div onde os dados do clima serão exibidos.
 
 ### OBSERVAÇÕES:
