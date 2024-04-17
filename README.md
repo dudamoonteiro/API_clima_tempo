@@ -6,13 +6,21 @@ Esse código pode ser utilizado para consultar o clima de uma cidade a partir de
 
 ### FUNCIONAMENTO:
 1- O código adiciona um ouvinte de eventos ao formulário com o ID formClima.
+
 2-Quando o formulário é submetido, o evento submit é disparado e a função anônima é executada.
+
 3-A função previne o comportamento padrão do formulário (recarregar a página) usando event.preventDefault().
+
 4-O valor digitado pelo usuário é obtido do campo de entrada com o ID cityInput.
+
 5-O primeiro caractere do nome da cidade é convertido para maiúscula usando charAt(0).toUpperCase() e o restante da string é mantido em minúsculo usando slice(1).
+
 6-Uma requisição fetch é feita para a API com o nome da cidade.
+
 7-A resposta da API é convertida para JSON usando response.json().
+
 8-Os dados retornados pela API são exibidos na página dentro do elemento com o ID climaResult.
+
 9-Se a API retornar dados, eles serão exibidos na página. Caso contrário, uma mensagem de erro será exibida.
 
 ### ELEMENTOS DO CÓDIGO QUE ESTÃO SENDO UTILIZADOS:
